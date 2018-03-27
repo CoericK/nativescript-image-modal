@@ -1,0 +1,22 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+
+android {
+	
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://www.jitpack.io" }
+    }
+}
+
+dependencies {
+    // Describe plugin native Android dependencies like
+	// compile "groupName:pluginName:ver" 
+    // EXAMPLE: compile "com.facebook.fresco:fresco:0.9.0+"
+
+    //compile files('../../../node_modules/nativescript-image-modal/platforms/android/libs/ImageModal.jar');
+    compile 'com.github.CoericK:TestModal:1.1'
+}
