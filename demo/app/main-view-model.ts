@@ -11,7 +11,7 @@ export class HelloWorldModel extends Observable {
         this.imageModal = new ImageModal();
 
         setTimeout(() => {
-            this.imageModal.showModal("https://s3.amazonaws.com/uploads.hipchat.com/635619/5430738/KUxwEwM1Id5nXNY/ic_novedades_test.png", () => {
+            this.imageModal.showModal("https://orig00.deviantart.net/8a2e/f/2015/109/c/c/vertical_banner_of_the_new_ussr_by_glide08-d8q9zjn.png", () => {
                 console.log('Se cerró el modal');
             });
         }, 2000);
