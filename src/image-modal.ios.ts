@@ -14,7 +14,11 @@ export class ImageModal extends Common {
         window = UIApplication.sharedApplication.keyWindow;
         imageModal = ImageModalIOS.alloc().init();
         imageModal.setFrameWithFrame(window.bounds);
-        cb ? imageModal.setImageWithUrl(url) : imageModal.setImageWithUrlCb(url, cb);
+        if (cb) {
+            imageModal.setImageWithUrlCb(url, cb);
+        } else {
+            imageModal.setImageWithUrl(url);
+        }
         window.addSubview(imageModal.getView());
     }
 

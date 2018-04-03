@@ -6,9 +6,17 @@
     },
     "tns-ios": {
       "version": "3.4.0"
-    }
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "scripts/before-prepare.js",
+        "inject": true
+      }
+    ]
   },
   "dependencies": {
+    "nativescript-hook": "^0.2.3",
     "nativescript-image-modal": "file:../src",
     "nativescript-theme-core": "^1.0.4",
     "nativescript-unit-test-runner": "^0.3.4",
