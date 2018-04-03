@@ -18,5 +18,5 @@ dependencies {
     // EXAMPLE: compile "com.facebook.fresco:fresco:0.9.0+"
 
     //compile files('../../../node_modules/nativescript-image-modal/platforms/android/libs/ImageModal.jar');
-    compile 'com.github.CoericK:TestModal:1.5'
+    compile 'com.github.CoericK:TestModal:1.6'
 }
