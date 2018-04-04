@@ -1,6 +1,6 @@
 {
     "name": "nativescript-image-modal",
-    "version": "2.1.3",
+    "version": "2.1.4",
     "description": "Load an Image from Internet and show it into a modal.",
     "main": "image-modal",
     "typings": "index.d.ts",
